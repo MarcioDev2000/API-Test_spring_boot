@@ -1,0 +1,52 @@
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos e diretórios de compilação locais
+target/
+*.jar
+*.war
+*.ear
+
+# Ignorar configurações do Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignorar arquivos de controle de versão
+.git/
+.gitignore
+.gitattributes
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Ignorar IDEs e editores locais
+*.iml
+*.ipr
+*.iws
+*.idea/
+.vscode/
+
+# Ignorar arquivos de dependências locais
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorar arquivos de teste locais
+test-output/
+
+# Ignorar arquivos do Docker
+.dockerignore
+Dockerfile*
+
+# Outros arquivos temporários ou sensíveis
+.env
+*.bak
